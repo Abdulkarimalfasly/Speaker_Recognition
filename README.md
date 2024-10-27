@@ -1,1 +1,2 @@
-# Speaker_Recognition
+
+This code loads audio samples to distinguish speakers by analyzing audio features. Initially, the code reads audio files from specified folders, extracting MFCC (Mel-frequency cepstral coefficients) features for each file. These features are used to train an SVM (Support Vector Machine) model to differentiate between known speakers. After training, the model can identify the current speaker by recording audio from the microphone and analyzing the resulting features. If the speaker is recognized, their name is printed.
